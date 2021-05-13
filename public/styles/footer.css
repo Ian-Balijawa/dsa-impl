@@ -1,0 +1,50 @@
+.footer {
+	font-size: 1.4rem;
+	padding: 1rem;
+}
+
+.members {
+	width: 80vw;
+	height: 10rem;
+	overflow-x: hidden;
+	position: absolute;
+	left: 0;
+	margin-left: 10rem;
+	border: 1px solid rgb(167, 145, 145);
+	border-radius: 1.3rem;
+	font-size: medium;
+	display: flex;
+	justify-content: space-evenly;
+	flex-direction: row;
+	background-color: var(--color-primary__light);
+	color: rgb(255, 255, 255);
+}
+
+.ian {
+	width: 15rem;
+	position: relative;
+	background-color: violet;
+	left: 4rem;
+}
+.ian {
+	width: 15rem;
+	background-color: violet;
+}
+.sharif {
+	width: 15rem;
+	background-color: rgb(94, 94, 94);
+}
+.collins {
+	width: 15rem;
+	background-color: rgb(0, 247, 21);
+}
+.tim {
+	width: 15rem;
+	background-color: rgb(37, 27, 179);
+}
+.mark {
+	width: 15rem;
+	position: relative;
+	background-color: rgb(255, 0, 0);
+	right: -8rem;
+}

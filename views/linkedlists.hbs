@@ -1,0 +1,208 @@
+<h2 class="heading-2">Linked Lists</h2>
+<p>A linked list is a collection of objects called nodes. Each node is linked to a successor
+    node in the list using an object reference.</p>
+
+
+<section id="section-singly-linkedlist">
+    <h4 class="heading-4">Singly Linked List</h4>
+    <p>The singly linked list is a data structure that contains two parts, i.e., one is the data part, and the other one
+        is the
+        address part, which contains the address of the next or the successor node. The address part in a node is also
+        known as
+        a pointer</p>
+
+</section>
+
+<h4 class="heading-4">Singly Linked List operation(s):</h4>
+<div class="note">
+    <h4>Please Note:</h4>
+    <p>create the Singly Linked List by using addFirst(element) or addLast(element) before moving
+        on to the
+        next operations
+    </p>
+</div>
+<section id="section-add-first">
+    <h5 class="heading-5">addFirst(element):</h5>
+    <p>Add First element to the singly linked list</p>
+    <div class="input-container">
+        <input type="text" placeholder="" id="input-add-first-sll" />
+        <button class="btn btn-run" id="run-add-first-sll"><span>Add First</span>
+            <span>
+                <svg class="item-title__icon">
+                    <use xlink:href="images/solid.svg#arrow-right"></use>
+                </svg>
+            </span>
+        </button>
+    </div>
+    <div class="output" id="output-add-first-sll">
+    </div>
+</section>
+
+<section id="section-add-last">
+    <h5 class="heading-5">addLast(element):</h5>
+    <p>Add last element to the singly linked list</p>
+    <div class="input-container">
+        <input type="text" placeholder="" id="input-add-last" />
+        <button class="btn btn-run" id="run-add-last"><span>Add last</span>
+            <span>
+                <svg class="item-title__icon">
+                    <use xlink:href="images/solid.svg#arrow-right"></use>
+                </svg>
+            </span>
+        </button>
+    </div>
+    <div class="output" id="output-add-last">
+    </div>
+</section>
+
+<section id="section-delete">
+    <h5 class="heading-5">delete(element):</h5>
+    <p>Delete element from the singly linked list</p>
+    <div class="input-container">
+        <input type="text" placeholder="" id="input-delete" />
+        <button class="btn btn-run" id="run-delete"><span>Delete </span>
+            <span>
+                <svg class="item-title__icon">
+                    <use xlink:href="images/solid.svg#arrow-right"></use>
+                </svg>
+            </span>
+        </button>
+    </div>
+    <div class="output" id="output-delete">
+    </div>
+</section>
+
+<section id="section-find">
+    <h5 class="heading-5">find(element):</h5>
+    <p>find element from the singly linked list</p>
+    <p>Returns null if the required element is not found</p>
+    <div class="input-container">
+        <input type="text" placeholder="" id="input-find" />
+        <button class="btn btn-run" id="run-find"><span>Find </span>
+            <span>
+                <svg class="item-title__icon">
+                    <use xlink:href="images/solid.svg#arrow-right"></use>
+                </svg>
+            </span>
+        </button>
+    </div>
+    <div class="output" id="output-find">
+    </div>
+</section>
+
+<section id="section-delete-tail">
+    <h5 class="heading-5">deleteTail():</h5>
+    <p>Delete tail element from the singly linked list</p>
+    <div class="input-container">
+        <button class="btn btn-run" id="run-delete-tail"><span>Delete Tail</span>
+            <span>
+                <svg class="item-title__icon">
+                    <use xlink:href="images/solid.svg#arrow-right"></use>
+                </svg>
+            </span>
+        </button>
+    </div>
+    <div class="output" id="output-delete-tail">
+    </div>
+</section>
+
+
+<section id="section-delete-head">
+    <h5 class="heading-5">deleteHead():</h5>
+    <p>Delete head element from the singly linked list and returns the head or the node value the head pointed to:</p>
+    <div class="input-container">
+        <button class="btn btn-run" id="run-delete-head"><span>Delete Head</span>
+            <span>
+                <svg class="item-title__icon">
+                    <use xlink:href="images/solid.svg#arrow-right"></use>
+                </svg>
+            </span>
+        </button>
+    </div>
+    <div class="output" id="output-delete-head">
+    </div>
+</section>
+
+
+{{!-- Doubly linked lists --}}
+<section id="section-doubly-linkedlist">
+    <h4 class="heading-4">Doubly Linked List</h4>
+    <p>We can define the doubly linked list as a linear data structure with three parts: the data part and the other two
+        address part. In other words, a doubly linked list is a list that has three parts in a single node, includes one
+        data
+        part, a pointer to its previous node, and a pointer to the next node.</p>
+</section>
+
+<h4 class="heading-4">Doubly Linked list operations:</h4>
+
+<div class="note">
+    <h4>Please Note <span>
+            <svg class="note-icon">
+                <use xlink:href="images/solid.svg#pen"></use>
+            </svg>
+        </span> :</h4>
+    <p>Create the Doubly Linked List by using addFirst(element) or addLast(element) before moving
+        on to the
+        next operations
+    </p>
+</div>
+<div class="note">
+    <h4>Please Note <span>
+            <svg class="note-icon">
+                <use xlink:href="images/solid.svg#pen"></use>
+            </svg>
+        </span> :</h4>
+    <p>Most of the Doubly linked list operations are similar to those of the Singly linked list
+    </p>
+</div>
+
+<section id="section-add-first-dll">
+    <h5 class="heading-5">addFirst(element):</h5>
+    <p>Add First element to the doubly linked list</p>
+    <div class="input-container">
+        <input type="text" placeholder="element" id="input-add-first-dll" />
+        <button class="btn btn-run" id="run-add-first-dll"><span>Add First</span>
+            <span>
+                <svg class="item-title__icon">
+                    <use xlink:href="images/solid.svg#arrow-right"></use>
+                </svg>
+            </span>
+        </button>
+    </div>
+    <div class="output" id="output-add-first-dll">
+    </div>
+</section>
+
+<section id="section-add-last-dll">
+    <h5 class="heading-5">addLast(element):</h5>
+    <p>Add last element to the doubly linked list</p>
+    <div class="input-container">
+        <input type="text" placeholder="element" id="input-add-last-dll" />
+        <button class="btn btn-run" id="run-add-last-dll"><span>Add last</span>
+            <span>
+                <svg class="item-title__icon">
+                    <use xlink:href="images/solid.svg#arrow-right"></use>
+                </svg>
+            </span>
+        </button>
+    </div>
+    <div class="output" id="output-add-last-dll">
+    </div>
+</section>
+
+<section id="section-delete-dll">
+    <h5 class="heading-5">delete(element):</h5>
+    <p>Delete element from the doubly linked list</p>
+    <div class="input-container">
+        <input type="text" placeholder="element" id="input-delete-dll" />
+        <button class="btn btn-run" id="run-delete-dll"><span>Delete </span>
+            <span>
+                <svg class="item-title__icon">
+                    <use xlink:href="images/solid.svg#arrow-right"></use>
+                </svg>
+            </span>
+        </button>
+    </div>
+    <div class="output" id="output-delete-dll">
+    </div>
+</section>

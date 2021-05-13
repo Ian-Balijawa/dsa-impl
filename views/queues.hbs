@@ -1,0 +1,135 @@
+<h2 class="heading-2">Queues</h2>
+
+<section id="section-types">
+
+    <h4 class="heading-4">Types of Queues:</h4>
+    <h4>Queue</h4>
+    <h4>Circular Queue</h4>
+    <h4>Dequeue</h4>
+</section>
+
+<section class="section-queues">
+    <h4 class="heading-4">Queue operation(s):</h4>
+</section>
+
+<section id="section-create-queue">
+    <h5 class="heading-5">new Queue(size):</h5>
+    <p>Create a new queue passing the expected queue size as the constructor argument</p>
+    <p><strong>Example</strong></p>
+    <div class="code-container">
+        const queue = new Queue(intialSize);
+    </div>
+    <p>Enter the initialsize of the queue:</p>
+    <div class="input-container">
+        <input type="text" placeholder="queue size" id="input-create-queue" />
+        <button class="btn btn-run" id="run-create-queue"><span>new Queue</span>
+            <span>
+                <svg class="item-title__icon">
+                    <use xlink:href="images/solid.svg#arrow-right"></use>
+                </svg>
+            </span>
+        </button>
+    </div>
+    <div class="output" id="output-create-queue">
+    </div>
+</section>
+
+<section id="section-enqueue">
+    <h5 class="heading-5">enqueue(element):</h5>
+    <p>Add element on the back of the queue</p>
+    <div class="input-container">
+        <input type="text" placeholder="element to enqueue" id="input-enqueue" />
+        <button class="btn btn-run" id="run-enqueue"><span>Enqueue</span>
+            <span>
+                <svg class="item-title__icon">
+                    <use xlink:href="images/solid.svg#arrow-right"></use>
+                </svg>
+            </span>
+        </button>
+    </div>
+    <div class="output" id="output-enqueue">
+    </div>
+</section>
+
+<section id="section-dequeue">
+    <h5 class="heading-5">dequeue(element):</h5>
+    <p>Remove element on the front of the queue</p>
+    <div class="input-container">
+        <button class="btn btn-run" id="run-dequeue"><span>Dequeue</span>
+            <span>
+                <svg class="item-title__icon">
+                    <use xlink:href="images/solid.svg#arrow-right"></use>
+                </svg>
+            </span>
+        </button>
+    </div>
+    <div class="output" id="output-dequeue">
+    </div>
+</section>
+
+<section id="section-circular-queues">
+    <h4 class="heading-4">Circular Queue</h4>
+</section>
+
+<h4 class="heading-4">Circular Queue operations:</h4>
+
+<div class="note">
+    <h4>Please Note <span>
+            <svg class="note-icon">
+                <use xlink:href="images/solid.svg#pen"></use>
+            </svg>
+        </span> :</h4>
+    <p>Most of the Circular queue operations are similar to those of the Queue</p>
+</div>
+
+<section id="section-create-circular-queue">
+    <h5 class="heading-5">new CircularQueue(size):</h5>
+    <p>Create a new queue passing the expected queue size as the constructor argument</p>
+    <p><strong>Example</strong></p>
+    <div class="code-container">
+        const queue = new CircularQueue(intialSize);
+    </div>
+    <p>Enter the intial size of the circular queue:</p>
+    <div class="input-container">
+        <input type="text" placeholder="circular queue size" id="input-create-circular-queue" />
+        <button class="btn btn-run" id="run-create-circular-queue"><span>new CircularQueue</span>
+            <span>
+                <svg class="item-title__icon">
+                    <use xlink:href="images/solid.svg#arrow-right"></use>
+                </svg>
+            </span>
+        </button>
+    </div>
+    <div class="output" id="output-create-circular-queue"></div>
+</section>
+
+<section id="section-add-first">
+    <h5 class="heading-5">addFirst(element):</h5>
+    <p>Adds an element on the front of the circular queue</p>
+    <div class="input-container">
+        <input type="text" placeholder="element" id="input-add-first" />
+        <button class="btn btn-run" id="run-add-first"><span>Add First</span>
+            <span>
+                <svg class="item-title__icon">
+                    <use xlink:href="images/solid.svg#arrow-right"></use>
+                </svg>
+            </span>
+        </button>
+    </div>
+    <div class="output" id="output-add-first"></div>
+</section>
+
+<section id="section-remove-last">
+    <h5 class="heading-5">removeLast():</h5>
+    <p>Remove last element of the circular queue</p>
+    <div class="input-container">
+        <button class="btn btn-run" id="run-remove-last"><span>Remove Last</span>
+            <span>
+                <svg class="item-title__icon">
+                    <use xlink:href="images/solid.svg#arrow-right"></use>
+                </svg>
+            </span>
+        </button>
+    </div>
+    <div class="output" id="output-remove-last"></div>
+</section>

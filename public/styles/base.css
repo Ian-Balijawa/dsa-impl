@@ -1,0 +1,161 @@
+:root {
+	--color-primary__light: rgb(31, 143, 255);
+	/* --color-primary__light: rgb(255, 70, 70); */
+	--color-primary__dark: rgb(0, 88, 175);
+
+	--color-text__dark: #331252;
+	--color-text__light: #111111;
+}
+
+*,
+*::after,
+*::before {
+	margin: 0;
+	padding: 0;
+	box-sizing: inherit;
+}
+
+html {
+	font-size: 62.5%;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Open sans';
+	background-color: rgb(255, 255, 255);
+	color: rgb(0, 0, 0);
+	font-weight: 600;
+	line-height: 3em;
+}
+
+body::-webkit-scrollbar {
+	width: 1.1rem;
+}
+
+body::-webkit-scrollbar-track {
+	background-color: #fefefecc;
+}
+
+body::-webkit-scrollbar-thumb {
+	background-color: var(--color-primary__light);
+	border-radius: 2rem;
+}
+
+li {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+	display: block;
+}
+
+section {
+	margin: 3rem 0;
+	width: 100%;
+}
+
+.container {
+	max-width: 100vw;
+	min-height: 100vh;
+
+	display: grid;
+	grid-template-columns: 20vw 1fr;
+	grid-template-rows: 1fr min-content;
+}
+
+.heading-2 {
+	font-size: 2.4rem;
+	color: var(--color-text__dark);
+	margin-bottom: 1rem;
+}
+
+.heading-4 {
+	font-size: 2.2rem;
+	color: var(--color-text__dark);
+	margin: 0.6rem 0;
+}
+
+.heading-5 {
+	font-size: 1.9rem;
+	color: var(--color-text__dark);
+	margin: 0.6rem 0;
+}
+
+.icon {
+	fill: white;
+	width: 1.4rem;
+	height: 1.2rem;
+}
+
+.code-container {
+	border-left: 0.5rem solid var(--color-primary__dark);
+	background-color: var(--color-primary__light);
+	padding: 1.4rem 1.6rem 1.4rem 1.2rem;
+	margin: 1rem 0;
+	font-weight: 400;
+	line-height: 3rem;
+	font-size: 1.5rem;
+	border-radius: 0.6rem;
+	color: #ffff;
+
+	position: relative;
+}
+
+.algorithms {
+	border-left: 0.5rem solid var(--color-primary__dark);
+	line-height: 3rem;
+	background-color: var(--color-primary__light);
+	border-radius: 1rem;
+	color: #ffff;
+}
+.text {
+	padding: 0.5rem 1rem;
+}
+input,
+textarea {
+	background-color: #f3f1f1cc;
+	padding: 1rem 1.2rem;
+	margin: 1rem 0;
+	font-weight: 500;
+	border-radius: 0.5rem;
+	display: block;
+	width: 100%;
+	outline: none;
+	border: 0.2px solid #efefef;
+	border-left: 0.4rem solid var(--color-primary__light);
+	transition: all 0.3s ease;
+}
+
+input:focus,
+textarea:focus {
+	border: 2px solid #a463e0;
+}
+
+.output {
+	background-color: #f3f1f1cc;
+	padding: 1rem 1.2rem;
+	margin: 1rem 0;
+	font-weight: 500;
+	border-radius: 0.4rem;
+	display: none;
+	width: 100%;
+	outline: none;
+	border: 0.2px solid #efefef;
+	transition: all 0.2s ease-in;
+}
+
+@media screen and (max-width: 360px) {
+	.sidebar-container {
+		display: block;
+		position: absolute;
+		top: 0;
+		left: 0;
+		margin: 0 auto;
+		width: 100%;
+	}
+	.sidebar {
+		width: 100%;
+	}
+}

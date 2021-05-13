@@ -1,0 +1,39 @@
+.main {
+	font-size: 1.6rem;
+	padding: 0 2rem;
+	padding-right: 5rem;
+}
+
+.hero {
+	height: 25vh;
+	text-align: center;
+	display: grid;
+	place-items: center;
+	background-color: var(--color-primary__light);
+	color: #ffff;
+	margin-bottom: 1.4rem;
+	/* border-bottom-left-radius: 0.9rem; */
+	border-bottom-right-radius: 5.9rem;
+	border-top-left-radius: 6rem;
+}
+
+.note {
+	padding: 1rem;
+	background-color: #2de4fc;
+	border-radius: 0.4rem;
+	margin: 1.2rem 0;
+	color: rgb(255, 255, 255);
+	font-weight: 900;
+}
+
+.note-icon {
+	fill: var(--color-primary__dark);
+	width: 1.4rem;
+	height: 1.2rem;
+	font-weight: bolder;
+}
+
+.operation {
+	margin-top: 2.4rem;
+	margin-bottom: -2.4rem;
+}
